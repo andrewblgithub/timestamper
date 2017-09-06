@@ -1,5 +1,10 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h2 TimeStamper API 
+  h3 Example Usage
+  p localhost:3000/September 5, 2017
+  p localhost:3000/1504665359
+
+  h3 Expected JSON Output 
+  code {"unix":1504665359,"natural":"September 5, 2017"}
